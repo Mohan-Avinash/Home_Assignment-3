@@ -1,63 +1,48 @@
-# Home_Assignment-3
-
-# CS5720 Neural Networks and Deep Learning - Home Assignment 2
+# CS5720 Neural Networks and Deep Learning – Home Assignment 3
 
 ## Student Information
 
-- **Name**: Mohan Avinash Kakulavarapu
-- **Student ID**: 700762693
-- **CRN**: 23847
-- **Course**: CS5720 Neural Networks and Deep Learning
-- **Semester**: Spring 2025
+- **Name:** Mohan Avinash Kakulavarapu
+- **Student ID:** 700762693
+- **CRN:** 23847
+- **Course:** CS5720 Neural Networks and Deep Learning
+- **Semester:** Spring 2025
+
+---
 
 ## Assignment Details
 
-This repository contains the code and documentation for **Home Assignment 2**. The assignment covers various topics in deep learning, including convolution operations, edge detection, pooling, and CNN architectures.
+This repository contains the code and documentation for **Home Assignment 3** (Chapters 7 & 8). The tasks focus on autoencoders, sequence modelling with LSTMs, and sentiment analysis.
 
-### **Tasks Covered:**
+### Tasks Covered
 
-1. **Cloud Computing for Deep Learning**
-
-   - Explain **elasticity** and **scalability** in cloud computing.
-   - Compare **AWS SageMaker, Google Vertex AI, and Azure Machine Learning Studio**.  
-     _(Written answers provided in a PDF file.)_
-
-2. **Convolution Operations with Different Parameters**
-
-   - Implement **convolution operations** on a **5×5 input matrix** with a **3×3 kernel**.
-   - Varying **stride** and **padding**:
-     - `stride = 1, padding = 'VALID'`
-     - `stride = 1, padding = 'SAME'`
-     - `stride = 2, padding = 'VALID'`
-     - `stride = 2, padding = 'SAME'`
-
-3. **CNN Feature Extraction & Pooling**
-
-   - **Edge Detection using Sobel Filters** with OpenCV.
-   - **Max Pooling and Average Pooling** on a random 4×4 matrix.
-
-4. **Implementing and Comparing CNN Architectures**
-   - Implement a **simplified AlexNet** model using TensorFlow/Keras.
-   - Implement a **ResNet-like model** with **residual blocks**.
+| Question | Topic                    | Brief Description                                                          |
+| -------- | ------------------------ | -------------------------------------------------------------------------- |
+| **Q1**   | Basic Autoencoder        | Fully‑connected autoencoder on MNIST; experiments with latent sizes.       |
+| **Q2**   | Denoising Autoencoder    | Adds Gaussian noise and trains the model to reconstruct clean digits.      |
+| **Q3**   | LSTM Text Generation     | Character‑level Shakespeare generator with temperature sampling.           |
+| **Q4**   | Sentiment Classification | IMDB review classifier using an LSTM; includes confusion matrix & metrics. |
 
 ---
 
 ## **Files in This Repository**
 
-- `Home_Assignment-2_Ques-1` - **Written answers for Question 1 (Cloud Computing for Deep Learning)**.
-- `Ques2_Convolution.ipynb` - **Code for convolution with different strides & padding**.
-- `Ques3_CNN_Feature_Extraction.ipynb` - **Edge detection using Sobel filters & pooling operations**.
-- `Ques4_Implementing_and_Comparing_CNN_Architectures.ipynb` - **Implementation of AlexNet & ResNet architectures**.
+- `Q1_Basic_Autoencoder.ipynb` - **Implementing a Basic Autoencoder**.
+- `Q2_Denoising_Autoencoder.ipynb` - **Implementing a Denoising Autoencoder**.
+- `Q3_RNN_Text_Generation.ipynb` - **Implementing an RNN for Text Generation**.
+- `Q4_RNN_Sentiment_Classification.ipynb` - **Sentiment Classification Using RNN**.
 - `README.md` - **This file**.
 
 ## How to Run
 
-1. Clone this repository.
-2. Open the Jupyter Notebook files in your local environment.
-3. Ensure you have the required libraries installed (e.g., TensorFlow, Matplotlib,numpy, opencv-python).
-4. Run the cells in each notebook to see the results.
+```bash
+git clone https://github.com/<your‑user>/home-assignment-3.git
+cd home-assignment-3
+pip install -r requirements.txt      # tensorflow, scikit-learn, opencv-python, etc.
+jupyter notebook                     # or open the notebooks directly in Google Colab
+```
 
 ## Video Submission
 
-Video demonstrating the code and explaining the results.
-[Video Link:](https://www.loom.com/share/d5f6f5fc415f48f0bd2950e60781cfd2?sid=31c657e3-33eb-4737-9595-4bc1759fdfda)
+Video demonstrating the code and explaining the results.  
+**Video Link:** [Watch Here]()
