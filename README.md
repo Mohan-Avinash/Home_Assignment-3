@@ -45,4 +45,4 @@ jupyter notebook                     # or open the notebooks directly in Googleâ
 ## Video Submission
 
 Video demonstrating the code and explaining the results.  
-**Video Link:** [Watch Here]()
+**Video Link:** [Watch Here](https://www.loom.com/share/a268ca158d1f43b5ac05a8aae5c7a729?sid=c5dc9153-7325-4cf1-8b47-25aa553e1049)
